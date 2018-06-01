@@ -6,6 +6,13 @@
       } else {
         console.log("test failed");
       }
+    },
+    toBeFalse: function(object) {
+      if (object === false) {
+        console.log("test passed");
+      } else {
+        console.log("test failed")
+      }
     }
   }
 
